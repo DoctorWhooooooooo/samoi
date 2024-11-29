@@ -1,0 +1,84 @@
+// Divtober
+
+@import '../globals/reset'
+@import '../globals/mixins'
+@import '../components/header'
+
+.divtober
+  font-family: 'Courier New', Courier, serif
+  line-height: 1.4
+  font-size: 110%
+
+  &.divtober2020
+    background-color: mistyrose
+    
+    code
+      background-color: pink
+
+  &.divtober2021
+    background-color: aliceblue
+    
+    code
+      background-color: paleturquoise
+
+  &.divtober2022
+    background-color: lemonchiffon
+    
+    code
+      background-color: palegoldenrod
+
+  &.divtober2023
+    background-color: lighten(lightsalmon,15)
+    
+    code
+      background-color: lighten(coral,15)
+
+  .content
+    max-width: 880px
+    margin: 2em 25px
+    
+    & > *
+      margin-bottom: 20px
+
+    a
+      color: blue
+
+  h2
+    margin-bottom: 10px
+    font-size: 1.1em
+
+  h2, h3,
+  strong
+    font-weight: bold
+
+  ul
+    padding-left: 20px
+    list-style-type: disc
+
+  code
+    padding: 0 4px
+    display: inline-block
+    background-color: #ddd
+
+  hr
+    height: 1px
+    background-color: black
+    border: none
+
+  .nav-years
+    display: flex
+    align-items: baseline
+    gap: 1em
+
+  .prompts
+    list-style-type: decimal
+    list-style-position: inside
+
+    @media screen and (min-width: 420px)
+      columns: 2
+
+    @media screen and (min-width: 700px)
+      columns: 3
+
+    li
+      margin: 5px

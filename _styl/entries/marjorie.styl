@@ -1,0 +1,106 @@
+/*-----------------------------
+
+Marjorie
+
+-----------------------------*/
+
+#marjorie
+  background: green
+  
+  div
+    width: 32em
+    height: 24em
+    margin-left: -(@width/2)
+    margin-top: -(@height/2)
+    background-repeat: no-repeat
+    background-image: linear-gradient(white, white), linear-gradient(#111, #111), linear-gradient(#111, #111),
+                      linear-gradient(#111, #111), linear-gradient(white, white),
+                      linear-gradient(#111, #111), linear-gradient(white, white), 
+                      linear-gradient(#111, #111), linear-gradient(white, white),
+                      linear-gradient(#111, #111), linear-gradient(white, white), 
+                      linear-gradient(#111, #111), linear-gradient(white, white),
+                      linear-gradient(#111, #111), linear-gradient(#111, #111), linear-gradient(#111, #111), linear-gradient(#111, #111),
+                      linear-gradient(#111, #111), linear-gradient(#111, #111), linear-gradient(#111, #111), linear-gradient(#111, #111),
+                      linear-gradient(#111, #111), linear-gradient(#111, #111), linear-gradient(#111, #111), linear-gradient(#111, #111)
+                      
+                    
+    background-size: 4em .5em, 12em 5em, 1em 1em,
+                     1em 5em, 1em 5em,
+                     1em 6em, 1em 6em,
+                     1em 6em, 1em 6em,
+                     1em 5em, 1em 6em,
+                     1em 6em, 1em 6em,
+                     1.1em .1em, 1.1em .1em, .1em 1.2em, .1em 1.2em,
+                     1em .1em, 1em .1em, 1em .1em, .1em 1em,
+                     1em .1em, 1em .1em, 1em .1em, .1em 1em
+                     
+    background-position: 48% 60%, 50% 50%, 65.5% 39.5%,
+                         29.5% 55%, 29.5% 60%,
+                         38% 65%, 38% 70%,
+                         35% 62%, 35% 67%, 
+                         60% 65%, 60% 70%,
+                         65% 65%, 65% 70%,
+                         5% 90%, 5% 92%, 6% 93%, 7% 93%,
+                         10% 89%, 10% 91%, 10% 93%, 12% 93%,
+                         15% 89%, 15% 91%, 15% 93%, 17% 93%
+        
+    transform: rotate(3deg)
+                         
+                         
+    &::before
+        width: 10em
+        height: 4em
+        right: 10%
+        top: 31%
+        background-repeat: no-repeat
+        background-image: 
+                          radial-gradient(circle, black 50%, black(0) 51%),
+                          radial-gradient(circle, black 50%, black(0) 51%),
+                          radial-gradient(circle, white 50%, white(0) 51%),
+                          linear-gradient(#111, #111),
+                          linear-gradient(white, white),
+                          linear-gradient(#111, #111),
+                          linear-gradient(white, white)
+                           
+        background-size: 
+                         1em 1em,
+                         .9em .9em,
+                         1em 1em,
+                         6em 3em,
+                         7em 4em,
+                         2em 1em,
+                         2em 1em
+
+        background-position: 
+                             93% 65%,
+                             61% 28%,
+                             60% 25%,
+                             30% 0%,
+                             0% 0%,
+                             85% 65%,
+                             85% 100%
+
+        transform: rotate(-40deg)
+
+    &::after
+        width: 10em
+        height: .5em
+        right: 15%
+        top: 55%
+        background-repeat: no-repeat
+        background-image: 
+                         linear-gradient(lightgray, lightgray),
+                         linear-gradient(lightgray, lightgray),
+                         linear-gradient(blue, blue)
+                           
+        background-size: 
+                         .25em .25em,
+                         .8em .5em,
+                         5.5em .5em
+
+        background-position: 
+                             57% 50%,
+                             62% 0%,
+                             0% 0%
+
+        transform: rotate(60deg)

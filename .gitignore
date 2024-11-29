@@ -1,0 +1,8 @@
+.DS_Store
+.git
+node_modules
+public
+package-lock.json
+/.vs/samoi/FileContentIndex
+/.vs/samoi/v17
+/.vs

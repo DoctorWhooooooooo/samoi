@@ -1,0 +1,114 @@
+﻿/*-----------------------------
+
+Laika
+
+-----------------------------*/
+
+#laika
+  background-color: dodgerblue
+  overflow: hidden
+
+  div
+    width: 20em
+    height: 30em
+    top: auto
+    margin-left: 1em
+    bottom: -1em
+    background-color: dodgerblue
+    background-repeat: no-repeat
+    background-image: radial-gradient(circle, white 60%, white(0) 61%),
+                      radial-gradient(circle, white 60%, white(0) 61%),
+                      radial-gradient(circle, white 60%, white(0) 61%),
+                      radial-gradient(circle, white 60%, white(0) 61%),
+                      linear-gradient(white, white),
+                      linear-gradient(40deg, white 56%,
+                                             white(0) 57%)
+    background-size: 3em 3em,
+                     4em 4em,
+                     5em 5em,
+                     3.5em 3.5em,
+                     3.5em 1em,
+                     3.5em 3em
+                   
+    background-position: left  5em bottom -1em,
+                         left  7em bottom -1em,
+                         left 10em bottom -1em,
+                         left 14em bottom -1em,
+                         left 0 bottom 14.5em,
+                         left 0 bottom 15.5em
+    border-bottom-left-radius: 50%
+    box-shadow: -1.1em 2em 0 -1em  white,
+                -2.3em 4em 0 -2em  lighten(dodgerblue,50),
+                -4.5em 7em 0 -4em  lighten(dodgerblue,35),
+                -6.8em 10em 0 -6em lighten(dodgerblue,20),
+                -7.2em 20em 0 -6em lighten(dodgerblue,20)
+    @media screen and (max-width: 400px)
+      bottom: -3.5em
+      margin-left: -1.5em
+
+    &:before
+      width: 100%
+      height: 100%
+      left: calc(-100% - 1.4em)
+      background-color: dodgerblue
+      background-repeat: no-repeat
+      background-image: radial-gradient(circle, white 60%, white(0) 61%),
+                        radial-gradient(circle, white 60%, white(0) 61%),
+                        radial-gradient(circle, white 60%, white(0) 61%),
+                        radial-gradient(circle, white 60%, white(0) 61%),
+                        linear-gradient(white, white),
+                        linear-gradient(-45deg, white 56%,
+                                                white(0) 57%)
+      background-size: 3em 3em,
+                       4em 4em,
+                       5em 5em,
+                       3.5em 3.5em,
+                       3.5em 1em,
+                       3.5em 3em
+      background-position: right  5em bottom -1em,
+                           right  7em bottom -1em,
+                           right 10em bottom -1em,
+                           right 14em bottom -1em,
+                           right 0 bottom 14.5em,
+                           right 0 bottom 15.5em
+      border-bottom-right-radius: 50%
+      box-shadow: 1.1em 2em 0 -1em  white,
+                  2.3em 4em 0 -2em  lighten(dodgerblue,50),
+                  4.5em 7em 0 -4em  lighten(dodgerblue,35),
+                  6.8em 10em 0 -6em lighten(dodgerblue,20)
+
+    &:before,
+    &:after
+      font-family: Myriad Pro, Helvetica, Arial
+      font-weight: bold
+
+    &:after
+      font-size: 15px
+      color: dodgerblue
+      text-align: center
+      content: '\A \A 🐕 \A \A Laika'
+      white-space: pre
+      width: 3em
+      height: 10em
+      top: 6em
+      left: -2.2em
+      background-color: white
+      background-repeat: no-repeat
+      background-image: radial-gradient(ellipse at 50% 100%, lighten(dodgerblue,35) 40%,
+                                                             white(0) 42%),
+                        radial-gradient(ellipse at 50% 100%, lighten(dodgerblue,35) 40%,
+                                                             white(0) 42%)
+      background-size: 1.5em 3.5em,
+                       1.5em 3.5em
+      background-position: 0 100%,
+                           100% 100%
+      border-top-left-radius:  3.2em 15em
+      border-top-right-radius: 3.2em 15em
+      box-shadow: inset 0 1.4em 0 -1em white,
+                  inset 0 2.5em 0 -1.3em white,
+                  inset  .3em 0 0 white,
+                  inset -.3em 0 0 white,
+                  inset 0 3em 0 -1.3em lighten(dodgerblue,35),
+                  0 -9em 0 0 dodgerblue,
+                  -.7em 1.5em 0 -1em white,
+                   .7em 1.5em 0 -1em white
