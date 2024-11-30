@@ -86,11 +86,11 @@ npm start
 ## Story sharing
 Share your cyber story with Samoyed (or other animals) following these rules:
 - No word limit but please keep positive
-- Post it on X (Twitter) with tag $SMO and @samoi_sci (and anyone else you wish)
+- Post it on X (Twitter) with tag $SMO and @samoi_sci (and anyone else you want)
 - Please make sure your story is true
 
 I will read your story as soon as possible when I receive your message. Your story must be publicly acceptable. No private messages will be accepted.
-I will pay at least **10k** **$SMO** as a reward for each story. (Excellent stories will get more. The criteria is entirely up to my subjective opinion. ;))
+I will pay at least **10k** **$SMO** as a reward for each story. (Excellent stories will get more. The criteria is entirely up to my subjective opinion. 😉)
 
 
 By the way, I'd like to share my story with Samoyed here, which is also the main reason why I'm trying what I'm doing now.
@@ -105,7 +105,7 @@ Well, this is my story. I will always miss the time I spent with her.
 ## Traditional or AI painting
 Create a cyber painting about Samoyed following these rules:
 - Unlimited creation methods (AI accepted)
-- Post it on X (Twitter) with tag $SMO and @samoi_sci (and anyone else you wish)
+- Post it on X (Twitter) with tag $SMO and @samoi_sci (and anyone else you want)
 - Plagiarism is prohibited
 
 I will pay at least **10k** **$SMO** as a reward for each painting. (Excellent paintings will get more. The criteria is entirely up to my subjective opinion. 😉)
